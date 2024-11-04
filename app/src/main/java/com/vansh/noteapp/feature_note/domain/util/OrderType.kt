@@ -1,4 +1,6 @@
 package com.vansh.noteapp.feature_note.domain.util
 
-class OrderType {
+sealed class OrderType{
+    data object Ascending: OrderType()
+    data object Descending: OrderType()
 }

@@ -1,4 +1,8 @@
 package com.vansh.noteapp.feature_note.domain.use_case
 
-class NoteUseCase {
-}
+data class NoteUseCases(
+    val getNotesUseCase: GetNotesUseCase,
+    val deleteNotesUseCase: DeleteNotesUseCase,
+    val addNoteUseCase: AddNoteUseCase,
+    val getNoteUseCase: GetNoteUseCase
+)
